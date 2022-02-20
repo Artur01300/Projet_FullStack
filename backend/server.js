@@ -15,9 +15,7 @@ const normalizePort = val => {
   }
   return false;
 };
-// const port = normalizePort(process.env.PORT || '8080'); //google-services
-const port = normalizePort(process.env.PORT || '3000');
-
+const port = normalizePort(process.env.PORT || '8080');
 
 app.set('port', port);//On doit dir à l'application express sur quel port elle va tourner
 
